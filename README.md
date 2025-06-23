@@ -21,7 +21,7 @@ Para rodar este frontend localmente, siga os passos abaixo:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/Mattheusgus/Brokers.git](https://github.com/Mattheusgus/Brokers.git)
+    git clone https://github.com/Mattheusgus/Brokers.git
     ```
 2.  **Navegue até o diretório do projeto:**
     ```bash
@@ -34,8 +34,7 @@ Para rodar este frontend localmente, siga os passos abaixo:
     ```
 4.  **Inicie o servidor de desenvolvimento:**
     ```bash
-    npm start
-    # ou yarn start
+    npm run dev
     ```
     O aplicativo estará disponível em `http://localhost:3000` (ou outra porta disponível).
 
@@ -78,7 +77,7 @@ To run this frontend locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/Mattheusgus/Brokers.git](https://github.com/Mattheusgus/Brokers.git)
+    git clone https://github.com/Mattheusgus/Brokers.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
@@ -86,8 +85,7 @@ To run this frontend locally, follow these steps:
     ```
 3.  **Install dependencies:**
     ```bash
-    npm install
-    # or yarn install
+    npm run dev
     ```
 4.  **Start the development server:**
     ```bash
