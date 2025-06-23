@@ -20,7 +20,6 @@ export async function checkBrokers() {
     const filteredJson = result.filter(
       (broker) => broker.status !== "CANCELADA"
     );
-    console.log(filteredJson);
     return filteredJson;
   } catch (error) {
     console.error("Erro ao consultar Corretoras:", error);
